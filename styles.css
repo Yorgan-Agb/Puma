@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background-image: url('/media/background-puma.jpg');
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+
+#logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#logoPicture {
+  width: 100%;
+}
+
+#videoContainer {
+  margin-top: 5%;
+}
+
+#videoPuma {
+  width: 100%;
+}
+
+#deoContainer {
+  margin-top: 8%;
+}
+
+#deoPicture {
+  width: 100%;
+}
+
+#circle {
+  width: 100%;
+  border-radius: 100% 100%;
+  height: 15vh;
+  background: rgb(194, 163, 108);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+#footerContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+#chevron {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 0%;
+}
+
+#fleche {
+  width: 50%;
+  margin-bottom: 45%;
+}
+#bottomTitle {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 4%;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  z-index: 1;
+}
+
+#firstText,
+#secondText {
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#textHide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  transition-duration: 0.5s;
+  width: 100%;
+}
+
+#localisation {
+  width: 40%;
+}
+
+#circleContainer {
+  width: 100%;
+  height: 6vh;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
