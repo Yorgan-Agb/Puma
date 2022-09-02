@@ -1,5 +1,3 @@
-let upMoveInfo = document.querySelector('textCacher')
-
 document
   .getElementById('fleche')
   .animate(
